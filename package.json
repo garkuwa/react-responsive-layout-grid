@@ -1,0 +1,40 @@
+{
+  "name": "@garkuwa/react-responsive-layout-grid",
+  "version": "1.0.0",
+  "description": "React Responsive Layout Grid for Web desktop, tablet and mobile development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garkuwa/react-responsive-layout-grid.git"
+  },
+  "keywords": [
+    "react",
+    "responsive layout",
+    "grid system",
+    "responsive grid design",
+    "design-systems",
+    "javascript",
+    "typescript",
+    "react-components",
+    "flexbox"
+  ],
+  "author": "Taras Pysarskyi <tpysarskyi@gmail.com> (https://github.com/garkuwa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garkuwa/react-responsive-layout-grid/issues"
+  },
+  "homepage": "https://github.com/garkuwa/react-responsive-layout-grid#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.25",
+    "typescript": "^4.7.4"
+  }
+}
