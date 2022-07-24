@@ -1,6 +1,6 @@
 {
   "name": "@garkuwa/react-responsive-layout-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Responsive Layout Grid for Web desktop, tablet and mobile development",
   "main": "dist/index.js",
   "types": "index.d.ts",
