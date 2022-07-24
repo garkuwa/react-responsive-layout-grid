@@ -1,12 +1,27 @@
 Simple 🍊. Reliable 🔐. Lightweight 🥇. Pure ReactJs + Styled Components.
 
+[React Responsive Layout Grid Codesandbox link](https://codesandbox.io/s/typescript-styled-components-playground-forked-9qg3vc)
+
 ### Installation
 
+_npm_
 `npm i @garkuwa/react-responsive-layout-grid`
+
+_yarn_
 `yarn add @garkuwa/react-responsive-layout-grid`
 
 If needed, call `initResponsiveLayoutGrid` to override default configs:
-`initResponsiveLayoutGrid({ maxColumns: ..., spacingBase: ..., smBreakpoint: ..., mdBreakpoint: ..., lgBreakpoint: ..., xlgBreakpoint: ..., });`
+
+    initResponsiveLayoutGrid(
+        {
+        maxColumns: ...,
+        spacingBase: ...,
+        smBreakpoint: ...,
+        mdBreakpoint: ...,
+        lgBreakpoint: ...,
+        xlgBreakpoint: ...,
+        }
+    );
 
 ### The issues grid layout is trying to solve👇
 
@@ -49,7 +64,7 @@ On every grid item, you can use one, a few, all or neither of these breakpoints.
 
 A breakpoint value can be a boolean, number or undefined (a default one). Each serves a different purpose.
 
-For the sake of simplicity, we'll assume that `MAX_COLUMNS` is 12 in the examples below.
+For the sake of simplicity, we'll assume that `maxColumns` is 12 in the examples below.
 
 The most usual one is a numeric value, which simply says use N columns out of 12 for that breakpoint. For example, `<GridItem md={4}/>`.
 
@@ -67,7 +82,7 @@ As mentioned above, a grid container is nothing else but a flexbox container. It
 `<GridContainer>` where `m` stands for CSS `margin`, `p` for `padding` and `pt` for `padding-top` (`mt` for `margin-top`, `pl` for `padding-left` etc.)
 In the example below, `p` and `pt` are used together, which means that `padding-left`, `padding-right`, `padding-bottom` would be 3 units while `padding-top` would be overridden to 1 unit.
 
-**As for units that are used for `spacing`, `m` and `p` properties, these are relative units where 1 equals to 8 pixels or value set by SPACING_BASE.**
+**As for units that are used for `spacing`, `m` and `p` properties, these are relative units where 1 equals to 8 pixels or value set by the `spacingBase` init property.**
 
 Also, you can force a grid container to take a certain width and height by applying the `containerWidth` and `containerHeight` props. The boolean `fullWidth` prop would set a container's width to 100%.
 

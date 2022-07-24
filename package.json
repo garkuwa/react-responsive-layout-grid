@@ -2,7 +2,8 @@
   "name": "@garkuwa/react-responsive-layout-grid",
   "version": "1.0.0",
   "description": "React Responsive Layout Grid for Web desktop, tablet and mobile development",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
